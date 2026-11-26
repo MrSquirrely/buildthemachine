@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>McAllister for Senate | BuildTheMachine.org</title>
+    <meta name="description" content="Braxton 'The Hammer' McAllister for U.S. Senate. A work of political satire and parody.">
+    <meta name="theme-color" content="#0B192C">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- Social sharing -->
+    <meta property="og:url" content="https://buildthemachine.org/">
+    <link rel="canonical" href="https://buildthemachine.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BuildTheMachine.org (Satire)">
+    <meta property="og:title" content="McAllister for Senate — It's Time to Build. (A Parody)">
+    <meta property="og:description" content="A work of political satire. Braxton 'The Hammer' McAllister is not a real candidate, and the machine is not a real policy.">
+    <meta property="og:image" content="https://buildthemachine.org/images/share.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="McAllister for Senate — It's Time to Build. (A Parody)">
+    <meta name="twitter:description" content="A work of political satire. Braxton 'The Hammer' McAllister is not a real candidate.">
+    <meta name="twitter:image" content="https://buildthemachine.org/images/share.jpg">
+
+    <link rel="preload" href="fonts/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--
+    IMAGES
+    All images live in /images. Store product images are set in app.js (PRODUCTS[].image).
+-->
+
+<!-- PARODY NOTICE -->
+<div class="parody-strip">
+    <strong>Parody</strong> This is a work of political satire. Braxton McAllister is not a real candidate.
+</div>
+
+<!-- 1. ALERT TICKER -->
+<div class="ticker" role="status" aria-label="Breaking: The Bipartisan Hydraulic Press Coalition endorses Braxton McAllister. Break Ground by Q3!">
+    <div class="ticker-track" aria-hidden="true">
+        <span>BREAKING: The Bipartisan Hydraulic Press Coalition endorses Braxton McAllister — Break Ground by Q3!</span>
+        <span>BREAKING: The Bipartisan Hydraulic Press Coalition endorses Braxton McAllister — Break Ground by Q3!</span>
+        <span>BREAKING: The Bipartisan Hydraulic Press Coalition endorses Braxton McAllister — Break Ground by Q3!</span>
+        <span>BREAKING: The Bipartisan Hydraulic Press Coalition endorses Braxton McAllister — Break Ground by Q3!</span>
+    </div>
+</div>
+
+<!-- 1. NAVBAR -->
+<header class="nav" id="top">
+    <div class="container nav-inner">
+        <a class="logo" href="#top">
+            <span class="logo-main">MCALLISTER <em>FOR SENATE</em></span>
+            <span class="logo-sub">BuildTheMachine.org</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="navLinks" aria-label="Primary">
+            <a href="#platform">The Platform</a>
+            <a href="#bio">Meet "The Hammer"</a>
+            <a href="#white-paper">White Paper</a>
+            <a href="#endorsements">Endorsements</a>
+            <a href="#events">Events</a>
+            <a href="#store">Campaign Store</a>
+            <a class="btn btn-red btn-sm" href="#donate">DONATE NOW</a>
+            <button class="cart-btn" id="cartOpen" aria-label="Open cart">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l3 12h11l2-8H7"/></svg>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- 2. HERO -->
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Braxton "The Hammer" McAllister for U.S. Senate</p>
+            <h1>IT’S TIME<br>TO <span class="amber">BUILD.</span></h1>
+            <p class="hero-sub">"Building Tomorrow's Economy, One Kid at a Time."</p>
+            <p class="hero-body">Washington politicians talk about the future. Braxton "The Hammer" McAllister is ready to put steel to pavement and construct the 400-ton Child Crushing Machine right here in our district.</p>
+            <div class="hero-ctas">
+                <button class="btn btn-amber" data-open-modal="volunteerModal">JOIN THE COALITION</button>
+                <a class="btn btn-outline" href="#white-paper">READ THE WHITE PAPER</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="flag-frame">
+                <div class="flag-stars" aria-hidden="true">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+                <div class="flag-stripes">
+                    <img class="ph-img ph-hero" src="images/hero.jpg" width="1400" height="1050" alt="Braxton McAllister in a hard hat, pointing at a blueprint of a 400-ton hydraulic press">
+                </div>
+                <div class="flag-stars" aria-hidden="true">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+            </div>
+        </div>
+    </div>
+    <div class="hazard" aria-hidden="true"></div>
+</section>
+
+<!-- 3. IMPACT & THROUGHPUT -->
+<section class="stats" aria-label="Impact and throughput">
+    <div class="container stats-grid">
+        <div class="stat">
+            <div class="stat-num" data-count="4200" data-format="int">0</div>
+            <div class="stat-label">Union Lubrication &amp; Maintenance Jobs Created</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num" data-count="50000" data-format="int" data-suffix=" PSI">0</div>
+            <div class="stat-label">Peak Reciprocating Compression Load</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num" data-count="3.41" data-format="dec" data-prefix="+$" data-suffix="B">0</div>
+            <div class="stat-label">Projected Year-1 Municipal Fiscal Surplus</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num" data-count="0" data-from="38" data-format="int">38</div>
+            <div class="stat-label">Bureaucratic OSHA Safety Railings Slowing Down the Line</div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. PLATFORM -->
+<section class="section" id="platform">
+    <div class="container">
+        <p class="eyebrow dark">The Platform</p>
+        <h2>Three Pillars. Four Hundred Tons.</h2>
+        <p class="lead">A common-sense agenda, stress-tested by focus groups in three media markets and one loading dock.</p>
+        <div class="pillars">
+            <article class="card">
+                <div class="card-num">01</div>
+                <h3>Good-Paying Blue-Collar Jobs</h3>
+                <p>Creating thousands of union jobs in steel fabrication, heavy welding, and daily calibration maintenance. These are careers you can raise a family on, at least through the end of the fiscal year.</p>
+                <span class="card-tag">4,200 jobs · full dental</span>
+            </article>
+            <article class="card">
+                <div class="card-num">02</div>
+                <h3>Fiscal Responsibility &amp; Debt Reduction</h3>
+                <p>Consolidating youth infrastructure into one high-efficiency mechanical unit to slash K–12 educational deficits and entitlement liabilities. One machine. One line item. Zero waste.</p>
+                <span class="card-tag">+$3.41B projected surplus</span>
+            </article>
+            <article class="card">
+                <div class="card-num">03</div>
+                <h3>Bipartisan Common Sense</h3>
+                <p>Reaching across the aisle with <strong>The Bipartisan Hydraulic Press Coalition</strong> to make tough, kinetic decisions for quarterly bond yields. Left, right, it doesn't matter. The ram only goes down.</p>
+                <span class="card-tag">Endorsed by both lobbies</span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- 5. WHITE PAPER -->
+<section class="section section-navy" id="white-paper">
+    <div class="container">
+        <p class="eyebrow">Policy White Paper · Project Anvil-K</p>
+        <h2>Engineering &amp; Fiscal Breakdown</h2>
+        <p class="lead">Prepared by McAllister Strategic Kinetics Advisory. Peer-reviewed by Braxton's peers.</p>
+
+        <div class="tabs">
+            <div class="tab-list" role="tablist" aria-label="White paper sections">
+                <button class="tab" role="tab" id="tab-specs" aria-controls="panel-specs" aria-selected="true">Mechanical Specs</button>
+                <button class="tab" role="tab" id="tab-fiscal" aria-controls="panel-fiscal" aria-selected="false" tabindex="-1">5-Year Fiscal Model</button>
+                <button class="tab" role="tab" id="tab-sim" aria-controls="panel-sim" aria-selected="false" tabindex="-1">Throughput &amp; Savings Simulator</button>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="panel-specs" aria-labelledby="tab-specs">
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr><th>Subsystem</th><th>Specification</th><th>Status</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>400-Ton Dual-Stage Compression Ram</td><td>Forged domestic steel, 50,000 PSI peak reciprocating load, 14 cycles per minute</td><td><span class="pill pill-green">Shovel-Ready</span></td></tr>
+                            <tr><td>Gravity-Fed PTFE Intake Hopper</td><td>Low-friction non-stick lining; requires no operator, encouragement, or permission slip</td><td><span class="pill pill-green">Shovel-Ready</span></td></tr>
+                            <tr><td>Acoustic Dampening Shroud</td><td>Reduces operational noise to 38 dB at the property line, per HOA covenant 7(c)</td><td><span class="pill pill-amber">In Committee</span></td></tr>
+                            <tr><td>Dual 1,200-HP Clean-Coal Turbines</td><td>2,400 combined horsepower; "clean" certified by the manufacturer of the turbines</td><td><span class="pill pill-green">Shovel-Ready</span></td></tr>
+                            <tr><td>Emergency Stop System</td><td>Removed in value engineering (see FAQ)</td><td><span class="pill pill-red">Eliminated</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="panel-fiscal" aria-labelledby="tab-fiscal" hidden>
+                <div class="fiscal">
+                    <div class="fiscal-row">
+                        <div class="fiscal-head"><span>CapEx <small>Municipal bonds, 30-year</small></span><strong>$480M</strong></div>
+                        <div class="bar"><i class="bar-red" style="width:12.6%"></i></div>
+                    </div>
+                    <div class="fiscal-row">
+                        <div class="fiscal-head"><span>OpEx <small>Lubricant, turbines, ribbon-cuttings</small></span><strong>$14.2M</strong></div>
+                        <div class="bar"><i class="bar-red" style="width:0.6%"></i></div>
+                    </div>
+                    <div class="fiscal-row">
+                        <div class="fiscal-head"><span>Avoided Liabilities <small>K–12, entitlements, playground resurfacing</small></span><strong>$3.8B</strong></div>
+                        <div class="bar"><i class="bar-amber" style="width:100%"></i></div>
+                    </div>
+                    <div class="fiscal-row fiscal-total">
+                        <div class="fiscal-head"><span>Net Surplus</span><strong>+$3.41B</strong></div>
+                        <div class="bar"><i class="bar-green" style="width:89.7%"></i></div>
+                    </div>
+                    <p class="footnote">* Figures may not sum due to actuarial optimism. Projections supplied by the underwriter of the bonds.</p>
+                </div>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" id="panel-sim" aria-labelledby="tab-sim" hidden>
+                <div class="sim">
+                    <label for="hours" class="sim-label">Weekly Operating Hours: <output id="hoursOut">40</output> <span class="muted">/ 168</span></label>
+                    <input type="range" id="hours" min="0" max="168" step="1" value="40">
+                    <div class="sim-grid">
+                        <div class="sim-card">
+                            <div class="sim-num" id="simFuel">$0</div>
+                            <div class="sim-cap">Annual Municipal School-Bus Fuel Savings</div>
+                        </div>
+                        <div class="sim-card">
+                            <div class="sim-num" id="simCredits">0</div>
+                            <div class="sim-cap">Carbon-Offset Credits Earned (tCO₂e / yr)</div>
+                        </div>
+                        <div class="sim-card">
+                            <div class="sim-num" id="simRevenue">$0</div>
+                            <div class="sim-cap">Credit Resale Value via Vanguardia Clean-Tech</div>
+                        </div>
+                    </div>
+                    <p class="sim-status" id="simStatus"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. BIO & FAQ -->
+<section class="section" id="bio">
+    <div class="container">
+        <div class="bio-grid">
+            <div class="bio-photo">
+                <img class="ph-img ph-portrait" src="images/braxton-portrait.jpg" width="900" height="1117" loading="lazy" alt="Braxton McAllister, arms crossed, on the floor of the Monongahela Stamping Plant">
+            </div>
+            <div>
+                <p class="eyebrow dark">Meet "The Hammer"</p>
+                <h2>A Builder. A Father. A Distributor.</h2>
+                <p>Braxton McAllister is a third-generation heavy-equipment distributor. His grandfather sold presses. His father sold bigger presses. Braxton looked at the largest press in the catalog and asked the question no career politician had the courage to ask: <em>what if it were for something?</em></p>
+                <p>For 26 years he has run McAllister Industrial Supply out of the same cinderblock office off Route 51, meeting payroll, sponsoring Little League, and seeing no contradiction there.</p>
+                <blockquote>"I didn't go to some fancy Ivy League school to learn how torque works. I learned it on the factory floor."</blockquote>
+                <p>Braxton lives in the district with his wife, Deb, and their golden retriever, Gasket. Their three children are away at boarding school, out of state, at Deb's insistence.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">Straight Answers to Tough Questions</h3>
+            <details>
+                <summary>Isn't a Child Crushing Machine bad for families?</summary>
+                <p>Families tell us their top concerns are jobs, taxes, and noise. The Machine addresses all three. Our internal polling (n=14, all coalition board members) shows 100% of respondents hold a favorable or very favorable view. Braxton has always said the strongest family is a solvent one.</p>
+            </details>
+            <details>
+                <summary>Why did you eliminate emergency stop buttons and perimeter railings?</summary>
+                <p>Every emergency stop is, by definition, a stop. Stops are downtime, and downtime is deficit. An independent study commissioned and edited by the campaign found railings slow the line by up to 11%. Braxton trusts hardworking Americans to decide for themselves where to stand.</p>
+            </details>
+            <details>
+                <summary>How will we pay for the machine?</summary>
+                <p>With $480 million in municipal bonds, repaid from the surplus the Machine generates, as projected by the firm selling the bonds. Any shortfall will be covered by a modest convenience fee on library cards. Not one dime of new taxes on anyone who attends our donor retreats.</p>
+            </details>
+            <details>
+                <summary>What is Braxton’s compromise for undecided voters?</summary>
+                <p>Braxton hears you. That's why he's proposing the <strong>Tuesdays &amp; Thursdays Pilot Program</strong>: an 18-month phased rollout in which the Machine operates only two days a week while a Blue-Ribbon Committee studies whether to add Wednesdays. On all other days the facility will be available for ribbon-cuttings and corporate retreats.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- 7. TESTIMONIALS & ENDORSEMENTS -->
+<section class="section section-gray" id="endorsements">
+    <div class="container">
+        <p class="eyebrow dark">Real Voters. Real Voices.</p>
+        <h2>The District Is Talking</h2>
+        <div class="quotes">
+            <figure class="quote">
+                <blockquote>"Thirty years in hydraulics and I never had dental. Now I've got dental, vision, and a pension. I don't ask what the press is for. I keep it greased."</blockquote>
+                <figcaption><img class="avatar" src="images/avatar-dale.jpg" width="52" height="52" loading="lazy" alt=""><div><strong>Dale K.</strong><span>Hydraulics Technician</span></div></figcaption>
+            </figure>
+            <figure class="quote">
+                <blockquote>"I have filed nineteen complaints about skateboards in the cul-de-sac. Braxton is the only candidate who called me back with a plan."</blockquote>
+                <figcaption><img class="avatar" src="images/avatar-brenda.jpg" width="52" height="52" loading="lazy" alt=""><div><strong>Brenda H.</strong><span>HOA Treasurer</span></div></figcaption>
+            </figure>
+            <figure class="quote">
+                <blockquote>"I ran the school-bus fuel numbers three times. I didn't want them to be this good. But the spreadsheet is the spreadsheet."</blockquote>
+                <figcaption><img class="avatar" src="images/avatar-trevor.jpg" width="52" height="52" loading="lazy" alt=""><div><strong>Trevor M.</strong><span>Supply-Chain Analyst</span></div></figcaption>
+            </figure>
+            <figure class="quote">
+                <blockquote>"I was torn. Then I heard it would only be Tuesdays and Thursdays at first. That's the kind of measured, phased leadership I've been waiting for."</blockquote>
+                <figcaption><img class="avatar" src="images/avatar-chloe.jpg" width="52" height="52" loading="lazy" alt=""><div><strong>Chloe W.</strong><span>Undecided Voter</span></div></figcaption>
+            </figure>
+        </div>
+
+        <h3 class="badges-title">Proudly Endorsed By</h3>
+        <div class="badges">
+            <div class="badge"><span class="badge-seal">★</span>National Association of Sheet Metal &amp; Heavy Piston Manufacturers</div>
+            <div class="badge"><span class="badge-seal">★</span>Apex Actuarial &amp; Pension Solvency Group</div>
+            <div class="badge"><span class="badge-seal">★</span>Chamber of Commerce for Quiet Restaurants &amp; Luxury Condos</div>
+            <div class="badge"><span class="badge-seal">★</span>Vanguardia Clean-Tech &amp; Carbon Offsets LLC</div>
+        </div>
+
+        <h3 class="badges-title">In the News</h3>
+        <div class="press">
+            <article class="press-item">
+                <span class="press-outlet">The Monongahela Ledger-Dispatch</span>
+                <p>"McAllister Unveils Bold Plan; Details 'Loud,' Say Neighbors"</p>
+            </article>
+            <article class="press-item">
+                <span class="press-outlet">Bond Yield Weekly</span>
+                <p>"Markets Rally on News That Someone Is Finally Doing Something"</p>
+            </article>
+            <article class="press-item">
+                <span class="press-outlet">Heavy Piston Quarterly</span>
+                <p>"Candidate of the Year, Four Quarters Running"</p>
+            </article>
+            <article class="press-item">
+                <span class="press-outlet">Tri-County Fact Check Desk</span>
+                <p>"We reviewed the campaign's fiscal claims."</p>
+                <span class="factcheck">Rating: Mostly Loud</span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- OPPONENT -->
+<section class="section attack" id="opponent">
+    <div class="container attack-grid">
+        <div class="attack-photo">
+            <img class="ph-img ph-square" src="images/opponent.jpg" width="800" height="800" loading="lazy" alt="Gary Wendell, mid-blink, gripping a staircase handrail">
+        </div>
+        <div>
+            <p class="eyebrow">Know the Facts</p>
+            <h2>Gary Wendell:<br>Wrong on Railings.<br><span class="red">Wrong for Us.</span></h2>
+            <ul class="attack-list">
+                <li>Career politician Gary Wendell voted <strong>14 times</strong> to "study the issue further."</li>
+                <li>Gary Wendell supports emergency stop buttons. <strong>What is he trying to stop?</strong></li>
+                <li>Gary Wendell was photographed <strong>holding a handrail</strong> on a perfectly safe staircase.</li>
+                <li>Gary Wendell owns a level. <strong>He has never once used it on a budget.</strong></li>
+            </ul>
+            <p class="attack-tag">Gary Wendell. Too cautious. Too quiet. Too many railings.</p>
+            <p class="attack-fine">Paid for by Citizens for Industrial Youth Reduction. Mr. Wendell's voice has been slowed 15% and his photograph desaturated for clarity.</p>
+        </div>
+    </div>
+</section>
+
+<!-- EVENTS -->
+<section class="section" id="events">
+    <div class="container">
+        <p class="eyebrow dark">On the Trail</p>
+        <h2>Meet Braxton in Person*</h2>
+        <p class="lead">*From a distance determined by your giving history.</p>
+        <div class="events">
+            <article class="event">
+                <div class="event-date"><span>TUE</span><strong>14</strong></div>
+                <div class="event-info">
+                    <h3>Ceremonial Ribbon-Cutting &amp; Railing Removal</h3>
+                    <p>Proposed Machine Site, Lot 7 · 10:00 AM · Hard hats decorative</p>
+                </div>
+                <button class="btn btn-outline-dark btn-sm" disabled>At Capacity (Donors)</button>
+            </article>
+            <article class="event">
+                <div class="event-date"><span>THU</span><strong>16</strong></div>
+                <div class="event-info">
+                    <h3>Town Hall: "Your Questions, Pre-Selected"</h3>
+                    <p>Livestream only · 7:00 PM · Comments disabled</p>
+                </div>
+                <button class="btn btn-navy btn-sm" data-rsvp>RSVP</button>
+            </article>
+            <article class="event">
+                <div class="event-date"><span>TUE</span><strong>21</strong></div>
+                <div class="event-info">
+                    <h3>Private Equity Listening Breakfast</h3>
+                    <p>Location disclosed upon wire transfer · 7:30 AM · Sliders provided (lukewarm)</p>
+                </div>
+                <button class="btn btn-outline-dark btn-sm" disabled>At Capacity (Donors)</button>
+            </article>
+            <article class="event">
+                <div class="event-date"><span>THU</span><strong>23</strong></div>
+                <div class="event-info">
+                    <h3>Blue-Ribbon Committee: First Meeting to Schedule the First Meeting</h3>
+                    <p>Municipal Annex, Room B · 2:00 PM · Open to the undecided</p>
+                </div>
+                <button class="btn btn-navy btn-sm" data-rsvp>RSVP</button>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- 8. DONATION WIDGET -->
+<section class="section section-navy" id="donate">
+    <div class="container">
+        <p class="eyebrow">Chip In</p>
+        <h2>Every Dollar Counts. Some Count More.</h2>
+        <p class="lead">Choose the level of representation that fits your budget.</p>
+        <div class="donate-grid">
+            <div class="tiers" id="tiers" role="radiogroup" aria-label="Donation tier"></div>
+            <aside class="tier-detail" aria-live="polite">
+                <p class="tier-kicker" id="tierKicker"></p>
+                <div class="tier-amount" id="tierAmount"></div>
+                <p class="tier-perk" id="tierPerk"></p>
+                <dl class="tier-meta">
+                    <div><dt>Policy influence</dt><dd id="tierInfluence"></dd></div>
+                    <div><dt>Braxton will know your name</dt><dd id="tierName"></dd></div>
+                </dl>
+                <div class="pac-meter" id="pacMeter">
+                    <div class="pac-head"><span>Your gift vs. one Super PAC wire transfer</span><strong id="pacPct"></strong></div>
+                    <div class="bar bar-lg"><i class="bar-amber" id="pacBar"></i></div>
+                    <div class="pac-scale"><span>$0</span><span>$250,000</span></div>
+                    <p class="pac-note" id="pacNote"></p>
+                </div>
+                <button class="btn btn-red btn-block" id="donateBtn"></button>
+            </aside>
+        </div>
+    </div>
+</section>
+
+<!-- 9. STORE -->
+<section class="section" id="store">
+    <div class="container">
+        <p class="eyebrow dark">BuildTheMachine.org/Shop</p>
+        <h2>Official Campaign Store</h2>
+        <p class="lead">Every purchase is a contribution. Every contribution is a purchase.</p>
+        <div class="products" id="products"></div>
+    </div>
+</section>
+
+</main>
+
+<!-- 10. FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="logo">
+                <span class="logo-main">MCALLISTER <em>FOR SENATE</em></span>
+                <span class="logo-sub">BuildTheMachine.org</span>
+            </div>
+            <nav class="footer-links" aria-label="Footer">
+                <a href="#platform">The Platform</a>
+                <a href="#bio">Meet "The Hammer"</a>
+                <a href="#white-paper">White Paper</a>
+                <a href="#endorsements">Endorsements</a>
+                <a href="#store">Campaign Store</a>
+                <a href="#donate">Donate</a>
+            </nav>
+        </div>
+        <div class="fec">
+            Paid for by The Bipartisan Hydraulic Press Coalition and Citizens for Industrial Youth Reduction. Not authorized by any candidate or candidate's committee, though Braxton McAllister personally welded the prototype.
+        </div>
+    </div>
+    <div class="satire-bar">
+        <strong>Disclaimer: This website is a work of political satire and parody. Proudly hosted by <a href="https://mrsquirrely.net" target="_blank" rel="noopener">MrSquirrely.Net</a>.</strong>
+    </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="overlay" id="cartOverlay" hidden></div>
+<aside class="drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-head">
+        <h3>Your Cart</h3>
+        <button class="icon-btn" id="cartClose" aria-label="Close cart">✕</button>
+    </div>
+    <div class="drawer-body" id="cartItems"></div>
+    <div class="drawer-foot">
+        <div class="cart-total"><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div>
+        <button class="btn btn-red btn-block" id="checkoutBtn">CHECKOUT</button>
+        <p class="cart-msg" id="cartMsg" role="status"></p>
+    </div>
+</aside>
+
+<!-- VOLUNTEER MODAL -->
+<div class="modal" id="volunteerModal" role="dialog" aria-modal="true" aria-labelledby="volTitle" hidden>
+    <div class="modal-box">
+        <button class="icon-btn modal-close" data-close-modal aria-label="Close">✕</button>
+        <div class="hazard" aria-hidden="true"></div>
+        <div class="modal-content">
+            <h3 id="volTitle">Join the Coalition</h3>
+            <form id="volForm">
+                <p>Sign up to knock doors, staff phone banks, or stand near the intake hopper in a high-visibility vest.</p>
+                <label>First name<input type="text" name="name" required autocomplete="off"></label>
+                <label>ZIP code<input type="text" name="zip" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" required autocomplete="off"></label>
+                <label>I'd like to help with
+                    <select name="role">
+                        <option>Door Knocking</option>
+                        <option>Phone Banking</option>
+                        <option>Daily Calibration Maintenance</option>
+                        <option>Removing Railings</option>
+                        <option>Serving on a Blue-Ribbon Committee</option>
+                    </select>
+                </label>
+                <button class="btn btn-amber btn-block" type="submit">COUNT ME IN</button>
+                <p class="fine">Demo form. Nothing you enter is sent or stored anywhere.</p>
+            </form>
+            <div id="volDone" hidden>
+                <p class="done-big" id="volDoneText"></p>
+                <p>A regional field director will not be in touch, because this is satire and the form goes nowhere.</p>
+                <button class="btn btn-outline-dark btn-block" data-close-modal>CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DONATION MODAL -->
+<div class="modal" id="donateModal" role="dialog" aria-modal="true" aria-labelledby="donTitle" hidden>
+    <div class="modal-box">
+        <button class="icon-btn modal-close" data-close-modal aria-label="Close">✕</button>
+        <div class="hazard" aria-hidden="true"></div>
+        <div class="modal-content">
+            <h3 id="donTitle">Thank You, Patriot</h3>
+            <p class="done-big" id="donText"></p>
+            <p>No payment was collected, because this website is a parody. Your data has nonetheless been sold.</p>
+            <button class="btn btn-outline-dark btn-block" data-close-modal>CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<!-- EMAIL SIGNUP POP-UP -->
+<div class="modal" id="signupModal" role="dialog" aria-modal="true" aria-labelledby="signTitle" hidden>
+    <div class="modal-box">
+        <button class="icon-btn modal-close" data-close-modal aria-label="Close">✕</button>
+        <div class="hazard" aria-hidden="true"></div>
+        <div class="modal-content">
+            <h3 id="signTitle">Wait! Before You Go…</h3>
+            <form id="signForm">
+                <p>Braxton is <strong>personally devastated</strong> that you haven't joined his email list. Sign up for 11 to 14 urgent messages a day, each one marked FINAL NOTICE.</p>
+                <label>Email address<input type="email" name="email" placeholder="patriot@example.com" required autocomplete="off"></label>
+                <button class="btn btn-red btn-block" type="submit">YES, EMAIL ME CONSTANTLY</button>
+                <button class="guilt-link" type="button" data-close-modal>No thanks, I love deficits</button>
+                <p class="fine">Demo form. Nothing you enter is sent or stored anywhere.</p>
+            </form>
+            <div id="signDone" hidden>
+                <p class="done-big">You're in. Your first FINAL NOTICE is already overdue.</p>
+                <p>In reality, no address was saved and no email will ever arrive.</p>
+                <button class="btn btn-outline-dark btn-block" data-close-modal>CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- COOKIE BANNER -->
+<div class="cookie" id="cookieBanner" role="region" aria-label="Cookie notice" hidden>
+    <p><strong>We value your privacy</strong>, at approximately $0.04 per record. This site uses no actual cookies, but our consultants insisted on a banner.</p>
+    <div class="cookie-btns">
+        <button class="btn btn-outline btn-sm" data-cookie>Accept</button>
+        <button class="btn btn-amber btn-sm" data-cookie>Accept Enthusiastically</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
